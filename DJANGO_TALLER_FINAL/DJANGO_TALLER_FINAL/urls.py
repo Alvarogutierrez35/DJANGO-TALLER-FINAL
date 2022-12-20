@@ -28,6 +28,6 @@ urlpatterns = [
     path('inscritos/', views.InscritosLista.as_view()),
     path('inscrito/<int:pk>', views.InscritosDetalle.as_view()),
     path('instituciones/', views.InstitucionesLista),
-    path('institucion/<int:pk>', views.InstitucionesDetalle),
+    path('instituciones/<int:pk>', views.InstitucionesDetalle),
     path('carta/', views.carta),
 ]
